@@ -1,0 +1,18 @@
+<LinearLayout
+    android:id="@+id/image_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:visibility="visible">
+    <ImageView
+        android:id="@+id/iv_download"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_margin="@dimen/d_20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
